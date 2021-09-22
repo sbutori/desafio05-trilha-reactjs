@@ -1,1 +1,21 @@
-// TODO
+.info {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.date,
+.author,
+.readTime {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+
+  p {
+    margin-left: 0.5rem;
+  }
+}
+
+.author,
+.readTime {
+  margin-left: 1.5rem;
+}

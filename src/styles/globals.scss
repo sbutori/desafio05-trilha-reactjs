@@ -1,7 +1,35 @@
+:root {
+  --color-highlight: #ff57b2;
+  --color-heading: #f8f8f8;
+  --color-background: #1a1d23;
+  --color-info: #bbbbbb;
+  --color-body: #d7d7d7;
+  --weight-regular: 400;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-// TODO
+body {
+  background-color: var(--color-background);
+  color: var(--color-body);
+  font-family: Inter, sans-serif;
+  line-height: 1.7rem;
+  font-size: 1.125rem;
+  font-weight: var(--weight-regular);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: var(--weight-bold);
+}
